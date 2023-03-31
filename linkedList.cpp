@@ -134,15 +134,25 @@ void printList(Node **head){
 }
 
 int main(){
-    Node *head;
-    head = NULL; 
-    creation(&head,5);
-    creation(&head,7);
-    creation(&head,9);
-    beforeInsertion(&head,6,7);
-    afterInsertion(&head,8,7); 
-    deleteFirst(&head); 
-    deleteLast(&head); 
-    printList(&head);
+    // Node *head1;
+    // head1 = NULL; 
+    // creation(&head1,5);
+    // creation(&head1,7);
+    // creation(&head1,9);
+
+    // Node *head2;
+    // head2 = NULL;
+
+    // creation(&head2,11);
+    // creation(&head2,13);
+    // creation(&head2,15); 
+
+    // mergeList(&head1,&head2);
+    // printList(&head1); 
+    // beforeInsertion(&head,6,7);
+    // afterInsertion(&head,8,7); 
+    // deleteFirst(&head); 
+    // deleteLast(&head); 
+    // printList(&head);
     return 0;
 }
