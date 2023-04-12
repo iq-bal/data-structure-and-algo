@@ -139,7 +139,7 @@ int main(){
     printList(&head); 
     deleteData(&head,3); 
     printList(&head); 
-    if(isPalindrome(&head))    cout<< "yes"<< endl;
+    if(isPalindrome(&head))    cout<< "yes yes"<< endl;
     else    cout<< "No"<< endl; 
     return 0;
 }
