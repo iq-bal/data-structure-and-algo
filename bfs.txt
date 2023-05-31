@@ -1,0 +1,10 @@
+Here's how the BFS algorithm works:
+
+Create a queue and mark all vertices as not visited.
+Enqueue the source vertex into the queue and mark it as visited.
+While the queue is not empty, do the following:
+Dequeue a vertex from the queue.
+Process the dequeued vertex (e.g., print it or perform any desired operation).
+Enqueue all its adjacent vertices that have not been visited and mark them as visited.
+Repeat step 3 until the queue is empty.
+The BFS algorithm guarantees that it will visit all the vertices reachable from the source vertex and that it will visit them in the shortest path order.

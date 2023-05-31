@@ -1,0 +1,10 @@
+Here's how the DFS algorithm works:
+
+Create a stack and mark all vertices as not visited.
+Push the source vertex onto the stack and mark it as visited.
+While the stack is not empty, do the following:
+Pop a vertex from the stack.
+Process the popped vertex (e.g., print it or perform any desired operation).
+Push all its unvisited adjacent vertices onto the stack and mark them as visited.
+Repeat step 3 until the stack is empty.
+The DFS algorithm explores as deep as possible before backtracking, which means it explores vertices in a particular path until it reaches the end before exploring other branches. This property makes DFS useful in finding paths, cycles, or connected components in a graph.

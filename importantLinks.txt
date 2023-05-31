@@ -1,0 +1,3 @@
+tree data structures are best written in here: 
+https://www.programiz.com/dsa/trees
+
