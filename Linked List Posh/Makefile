@@ -1,9 +1,6 @@
-output:	main.o Node.o
-	g++ main.o Node.o -o output
-main.o: main.cpp
+output:	main.o
+	g++ main.o -o output
+main.o: main.cpp Node.cpp Node.h
 	g++ -c main.cpp
-Node.o: Node.cpp Node.h
-	g++ -c Node.cpp
 clean:
 	rm *.o output
-

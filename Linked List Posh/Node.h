@@ -1,22 +1,26 @@
 #ifndef NODE_H
 #define NODE_H
+
+template<typename T>
 class Node{
 public: 
-    int data;
+    T data;
     Node *next, *prev;
     Node();
-    Node(int d); 
+    Node(T d); 
 }; 
 
+template<typename T>
 class DoublyList{
 protected:
-    Node *head;
-    Node *tail;
+    Node<T> *head;
+    Node<T> *tail;
 public:
     DoublyList(); 
-    void push(int data); 
+    void push(T data); 
     void printList(); 
     void printReverseList(); 
 };
+#include "Node.cpp"
 #endif
 

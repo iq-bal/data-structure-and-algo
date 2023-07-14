@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    DoublyList list;
+    DoublyList<int> list;
     int n;  cin>>n;
     while (n--)
     {
